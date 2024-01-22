@@ -1,0 +1,5 @@
+bits = int(input("Enter the amount in bits: "))
+megabytes = bits / (8 * 10**6)
+gigabytes = bits / (8 * 10**9)
+terabytes = bits / (8 * 10**12)
+print(f"{bits} bits is equal to {megabytes} Megabytes, {gigabytes} Gigabytes, and {terabytes} Terabytes.")
